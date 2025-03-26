@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #778890;
+    color: #f0ffff;
+    font-family: "ubuntu", sans-serif;
+  }
+  
+  h1 {
+    position: absolute;
+    left: 35%;
+    top: 400px;
+    font-size: 100px;
+    font-weight: bold;
+  }
+  
+  .info1 {
+    position: relative;
+    width: 50%;
+    color: #f0ffff;
+    /* padding: 50px; */
+    font-size: 1.5rem;
+    top: 200px;
+    left: 100px;
+    transform: translate(0);
+    animation: appear linear;
+    animation-timeline: view();
+  }
+  
+  .txt1 {
+    color: #f8890a;
+  }
+  
+  .txt2 {
+    text-align: justify;
+  }
+  
+  .img1 {
+    position: relative;
+    top: 0;
+    left: 900px;
+    filter: drop-shadow(20px 20px 30px rgba(0, 0, 0, 0.5));
+    transition: transform 0.5s, box-shadow 0.5s;
+    height: 380px;
+    animation: appear linear;
+    animation-timeline: view();
+  }
+  
+  .txt3 {
+    color: #f8890a;
+  }
+  
+  .txt4 {
+    text-align: justify;
+  }
+  
+  .info2 {
+    position: relative;
+    width: 50%;
+    color: #f0ffff;
+    padding: 50px;
+    margin: 20px;
+    font-size: 1.5rem;
+    left: 700px;
+  }
+  
+  .txt3 {
+    color: #f8890a;
+  }
+  
+  .info3 {
+    position: relative;
+    width: 65%;
+    font-size: 1.5rem;
+    margin: 20px 0;
+    left: 100px;
+  }
+  
+  .info3 ul li {
+    display: block;
+    margin: 10px;
+    text-align: justify;
+    width: 100%;
+  }
+  
+  .txt5 {
+    color: #f8890a;
+  }
+  
+  /*
+  .img2 {
+    position: relative;
+    height: 40vh;
+    top: 0;
+    left: 77%;
+    border-radius: 10px;
+    filter: drop-shadow(20px 20px 300px rgba(0, 0, 0, 0.5));
+    transition: transform 0.5s, box-shadow 0.5s;
+  }*/
+  
+  .info4 {
+    position: relative;
+    width: 40%;
+    font-size: 1.5rem;
+    margin-top: 20px 0;
+    padding: 20px;
+    color: #f0ffff;
+    align-self: flex-end;
+    left: 57%;
+    margin-bottom: 100px;
+  }
+  
+  .txt7 {
+    color: #f8890a;
+  }
+  
+  .txt8 {
+    text-align: justify;
+  }
+  

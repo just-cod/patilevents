@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: #778890;
+    color: #f0ffff;
+    font-family: "ubuntu", sans-serif;
+  }
+  
+  #main1 {
+    position: relative;
+    text-align: center;
+    top: 30px;
+    padding: 2px;
+    margin: 2px;
+  }
+  
+  #txt1 {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    color: #f8890a;
+  }
+  
+  #tagline {
+    font-size: 40px;
+    left: 55px;
+    top: 60px;
+  }
+  
+  #main2 {
+    position: relative;
+    left: 100px;
+    width: 60%;
+    text-align: justify;
+    font-size: 30px;
+    margin-top: 90px;
+  }
+  #txt3 {
+    font-weight: bold;
+    color: #f8890a;
+    font-size: 40px;
+  }
+  
+  #txt4 {
+    margin-top: 5px;
+  }
+  
+  #main3 {
+    position: relative;
+    text-align: justify;
+    left: 510px;
+    width: 60%;
+    font-size: 30px;
+    margin: 10px;
+    margin-bottom: 100px;
+  }
+  
+  #txt5 {
+    font-weight: bold;
+    color: #f8890a;
+    font-size: 40px;
+  }
+  
+  #txt6 {
+    word-spacing: 2px;
+    line-height: 1.1;
+  }
+  
+  #txt7 {
+    font-weight: bold;
+  }
+  
+  span {
+    color: #f8890a;
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 576px) {
+    #main1 {
+      top: 10px;
+      left: 10px;
+    }
+  
+    #txt1 {
+      font-size: 40px;
+    }
+  
+    #tagline {
+      font-size: 30px;
+      left: 10px;
+      margin-top: 10px;
+    }
+  
+    #main2 {
+      left: 50px;
+      width: 80%;
+      font-size: 20px;
+    }
+  
+    #txt3 {
+      font-size: 30px;
+    }
+  
+    #main3 {
+      left: 50px;
+      width: 80%;
+      font-size: 20px;
+    }
+  }
+  
