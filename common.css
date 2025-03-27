@@ -182,10 +182,10 @@ footer ul li:hover {
   }
 
   #bname {
-    /* margin-top: 10px;
-    font-size: 30px; */
+    margin-top: 10px;
+    font-size: 10px;
 
-    display: none;
+    /* display: none; */
   }
   
   #navlinks {
@@ -223,7 +223,7 @@ footer ul li:hover {
   }
 }
 
-@media screen and (min-width: 576px) and (min-width: 767px) {
+@media screen and (min-width: 576px) and (max-width: 767px) {
 
   nav {
     width: 100%;
